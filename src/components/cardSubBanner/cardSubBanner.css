@@ -1,0 +1,13 @@
+.card__sub-banner {
+    width: 100%;
+    height: 72px;
+    border-radius: 16px;
+}
+
+.card-1__sub-banner {
+    background: linear-gradient(to bottom, #e0b330, #fbee88, #e0b330);
+}
+
+.card-2__sub-banner {
+    background-color: #2557f6;
+} /*# sourceMappingURL=cardSubBanner.css.map */

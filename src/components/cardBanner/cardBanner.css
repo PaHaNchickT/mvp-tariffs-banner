@@ -1,0 +1,41 @@
+.card__banner {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f3f7fb;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px 24px;
+    gap: 24px;
+}
+
+.card__banner__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card__banner__text-wrapper > p {
+    font-size: 16px;
+    color: #8f959b;
+}
+
+.card__banner > button {
+    font-size: 16px;
+    color: white;
+    background-color: #0e0f11;
+    width: 100%;
+    padding: 22.5px 0;
+    border-radius: 16px;
+}
+
+.card-1__banner {
+    background: linear-gradient(to bottom, #e0b330, #fbee88, #e0b330);
+}
+
+.card-1__banner > .card__banner__text-wrapper > p,
+.card-1__banner > .card__banner__text-wrapper > h3 {
+    color: #ffffff;
+} /*# sourceMappingURL=cardBanner.css.map */

@@ -1,5 +1,8 @@
 import { TItem } from '../../types/types';
 
+import './cardBanner.css';
+import './cardBannerWrapper.css';
+
 export default class CardBanner {
     itemData: TItem;
 
@@ -11,6 +14,9 @@ export default class CardBanner {
         const banner = document.createElement('div');
         banner.className = `card__banner card-${this.itemData.id}__banner`;
 
+        const textWrapper = document.createElement('div');
+        textWrapper.className = 'card__banner__text-wrapper';
+
         const title = document.createElement(this.itemData.banner.title.tag);
         title.textContent = this.itemData.banner.title.textContent;
 
@@ -21,7 +27,8 @@ export default class CardBanner {
         button.textContent = this.itemData.banner.button;
         button.onclick = () => console.log(this.itemData.titleWrapper.title.textContent);
 
-        banner.append(title, subTitle, button);
+        textWrapper.append(title, subTitle);
+        banner.append(textWrapper, button);
 
         return banner;
     }

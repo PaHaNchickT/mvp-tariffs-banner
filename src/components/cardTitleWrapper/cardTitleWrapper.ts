@@ -9,6 +9,7 @@ export default class CardTitleWrapper {
 
     render() {
         const titleWrapper = document.createElement('div');
+        titleWrapper.className = `card__title-wrapper card-${this.itemData.id}__title-wrapper`;
 
         const icon = new Image();
         icon.src = this.itemData.titleWrapper.img;

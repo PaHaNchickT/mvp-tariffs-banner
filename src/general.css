@@ -25,9 +25,23 @@ body {
     font-family: SF-UI-Display;
 }
 
+h1,
 h2,
+h4,
 p {
     margin: 0;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
 }
 
 a {
@@ -41,4 +55,10 @@ a:visited {
 }
 a:hover {
     text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 } /*# sourceMappingURL=general.css.map */

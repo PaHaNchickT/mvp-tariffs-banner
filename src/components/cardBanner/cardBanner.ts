@@ -9,6 +9,7 @@ export default class CardBanner {
 
     render() {
         const banner = document.createElement('div');
+        banner.className = `card__banner card-${this.itemData.id}__banner`;
 
         const title = document.createElement(this.itemData.banner.title.tag);
         title.textContent = this.itemData.banner.title.textContent;

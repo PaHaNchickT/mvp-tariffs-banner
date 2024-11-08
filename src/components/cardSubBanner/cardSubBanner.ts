@@ -9,6 +9,7 @@ export default class CardSubBanner {
 
     render() {
         const subBanner = document.createElement('div');
+        subBanner.className = `card__sub-banner card-${this.itemData.id}__sub-banner`;
 
         const title = document.createElement('p');
         title.textContent = this.itemData.subBanner!.title;

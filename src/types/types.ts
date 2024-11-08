@@ -4,6 +4,7 @@ export type TElementData = {
 };
 
 export type TItem = {
+    id: number;
     titleWrapper: {
         img: string;
         title: TElementData;

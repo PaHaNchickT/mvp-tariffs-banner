@@ -44,7 +44,7 @@
     width: 100%;
     height: 100%;
     top: 0;
-    background-image: url('https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/banner-bg.svg');
+    background-image: url('../../public/icons/banner-bg.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;

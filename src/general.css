@@ -2,6 +2,10 @@
     font-family: 'SF-UI-Display';
     src: url('./public/fonts/SF UI Display.ttf');
 }
+@font-face {
+    font-family: 'Mazzard';
+    src: url('./public/fonts/Mazzard.ttf');
+}
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;

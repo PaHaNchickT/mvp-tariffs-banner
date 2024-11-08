@@ -4,7 +4,7 @@ const MAIN_CONTENT: TItem[] = [
     {
         id: 0,
         titleWrapper: {
-            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/titleWrapperIcon-01.svg',
+            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/title-wrapperIcon-01.svg',
             title: {
                 tag: 'h4',
                 textContent: 'Консультация',
@@ -31,7 +31,7 @@ const MAIN_CONTENT: TItem[] = [
     {
         id: 1,
         titleWrapper: {
-            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/titleWrapperIcon-02.svg',
+            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/title-wrapperIcon-02.svg',
             title: {
                 tag: 'h4',
                 textContent: 'Базовый тариф',
@@ -48,7 +48,7 @@ const MAIN_CONTENT: TItem[] = [
         },
         isSubBanner: true,
         subBanner: {
-            title: 'Гарантия списания',
+            title: 'ГАРАНТИЯ СПИСАНИЯ',
         },
         ul: [
             'Сбор всех необходимых документов',
@@ -62,7 +62,7 @@ const MAIN_CONTENT: TItem[] = [
     {
         id: 2,
         titleWrapper: {
-            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/titleWrapperIcon-03.svg',
+            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/title-wrapperIcon-03.svg',
             title: {
                 tag: 'h4',
                 textContent: 'Рассрочка',
@@ -79,7 +79,7 @@ const MAIN_CONTENT: TItem[] = [
         },
         isSubBanner: true,
         subBanner: {
-            title: 'Гарантия списания',
+            title: 'ГАРАНТИЯ СПИСАНИЯ',
         },
         ul: [
             'Удобные варианты рассрочки',

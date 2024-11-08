@@ -1,13 +1,13 @@
 import MAIN_CONTENT from '../../constants/const-main-content';
 import PageTitle from '../pageTitle/pageTitle';
-import TariffItem from '../tariffItem/tariffItem';
+import CardItem from '../cardItem/cardItem';
 
 export default class App {
     start() {
         const itemsWrapper = document.createElement('section');
 
         MAIN_CONTENT.forEach((item) => {
-            itemsWrapper.appendChild(new TariffItem(item).render());
+            itemsWrapper.appendChild(new CardItem(item).render());
         });
 
         const main = document.createElement('main');

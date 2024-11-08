@@ -1,0 +1,14 @@
+.card__list {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card__list > li {
+    list-style-image: url(https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/confirm-icon.svg);
+}
+.card__list > li::marker {
+    position: relative;
+    top: 4px;
+} /*# sourceMappingURL=cardList.css.map */

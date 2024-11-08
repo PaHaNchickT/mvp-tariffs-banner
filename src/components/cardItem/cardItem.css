@@ -18,7 +18,7 @@ section {
     box-sizing: border-box;
     width: 424px;
     background-color: #ffffff;
-    padding: 12px;
+    padding: 32px 12px;
     display: flex;
     flex-direction: column;
     align-items: center;

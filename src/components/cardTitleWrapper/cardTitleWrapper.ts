@@ -1,5 +1,7 @@
 import { TItem } from '../../types/types';
 
+import './cardTitleWrapper.css';
+
 export default class CardTitleWrapper {
     itemData: TItem;
 
@@ -14,13 +16,17 @@ export default class CardTitleWrapper {
         const icon = new Image();
         icon.src = this.itemData.titleWrapper.img;
 
+        const textWrapper = document.createElement('div');
+        textWrapper.className = 'card__title-wrapper__text-wrapper';
+
         const title = document.createElement(this.itemData.titleWrapper.title.tag);
         title.textContent = this.itemData.titleWrapper.title.textContent;
 
         const subTitle = document.createElement('p');
         subTitle.textContent = this.itemData.titleWrapper.subTitle;
 
-        titleWrapper.append(icon, title, subTitle);
+        textWrapper.append(title, subTitle);
+        titleWrapper.append(icon, textWrapper);
 
         return titleWrapper;
     }

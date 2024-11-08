@@ -1,0 +1,39 @@
+@font-face
+    font-family: 'SF-UI-Display'
+    src: url('./public/fonts/SF UI Display.ttf')
+    
+$desktop: 767px
+$tablet: 499px
+$mobile: 380px
+
+html
+    overflow-x: hidden
+    scroll-behavior: smooth
+    -webkit-tap-highlight-color: transparent
+
+body
+    margin: 0
+    padding: 0
+    width: 100vw
+    height: 100vh
+    overflow: hidden
+    font-family: Asian
+    font-size: 18px
+    background-color: #F3F7FB
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    position: relative
+    font-family: SF-UI-Display
+
+h2, p
+    margin: 0
+
+a
+    transition: 0.3s
+    &:link, &:active, &:visited
+        color: white
+        text-decoration: none
+    &:hover
+        text-decoration: underline

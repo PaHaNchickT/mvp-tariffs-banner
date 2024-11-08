@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SF-UI-Display';
+    src: url('./public/fonts/SF UI Display.ttf');
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Asian;
+    font-size: 18px;
+    background-color: #f3f7fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: SF-UI-Display;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+a {
+    transition: 0.3s;
+}
+a:link,
+a:active,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+} /*# sourceMappingURL=general.css.map */

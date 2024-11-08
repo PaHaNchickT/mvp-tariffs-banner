@@ -15,12 +15,14 @@ export default class CardSubBanner {
 
         const title = document.createElement('p');
         title.textContent = this.itemData.subBanner!.title;
+        title.className = 'card_sub-banner__title';
 
-        const button = document.createElement('button');
-        button.textContent = '?';
-        button.onclick = () => console.log('???');
+        const hint = new Image();
+        hint.src =
+            'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/hint-icon.svg';
+        hint.className = 'card_sub-banner__hint';
 
-        subBanner.append(title, button);
+        subBanner.append(title, hint);
 
         return subBanner;
     }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 section {
     display: flex;
     gap: 24px;
@@ -7,10 +8,27 @@ section {
     padding: 4px;
     border-radius: 24px;
     display: flex;
+    justify-content: center;
 }
 
 .card-1 {
     background: linear-gradient(to bottom, #e0b330, #fbee88, #e0b330);
+    position: relative;
+}
+.card-1::before {
+    content: 'Лучший тариф';
+    width: 132px;
+    height: 32px;
+    position: absolute;
+    background: linear-gradient(to bottom, #fff289, #d2a41d);
+    top: -28px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
 }
 
 .card__wrapper {

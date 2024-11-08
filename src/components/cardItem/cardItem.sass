@@ -6,9 +6,25 @@ section
     padding: 4px
     border-radius: 24px
     display: flex
+    justify-content: center
 
 .card-1
-    background: linear-gradient(to bottom, #E0B330, #FBEE88, #E0B330)    
+    background: linear-gradient(to bottom, #E0B330, #FBEE88, #E0B330) 
+    position: relative
+    &::before
+        content: "Лучший тариф"
+        width: 132px
+        height: 32px
+        position: absolute
+        background: linear-gradient(to bottom, #FFF289, #D2A41D) 
+        top: -28px
+        font-size: 14px
+        color: white
+        display: flex
+        justify-content: center
+        align-items: center
+        border-top-right-radius: 16px
+        border-top-left-radius: 16px
 
 .card__wrapper
     border-radius: 22px

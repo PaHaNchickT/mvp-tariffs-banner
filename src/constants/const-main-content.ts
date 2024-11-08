@@ -2,8 +2,8 @@ import { TItem } from '../types/types';
 
 const MAIN_CONTENT: TItem[] = [
     {
-        id: 1,
         titleWrapper: {
+            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/titleWrapperIcon-01.svg',
             title: {
                 tag: 'h4',
                 textContent: 'Консультация',
@@ -28,8 +28,8 @@ const MAIN_CONTENT: TItem[] = [
         isTimer: false,
     },
     {
-        id: 2,
         titleWrapper: {
+            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/titleWrapperIcon-02.svg',
             title: {
                 tag: 'h4',
                 textContent: 'Базовый тариф',
@@ -58,8 +58,8 @@ const MAIN_CONTENT: TItem[] = [
         isTimer: false,
     },
     {
-        id: 3,
         titleWrapper: {
+            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/titleWrapperIcon-03.svg',
             title: {
                 tag: 'h4',
                 textContent: 'Рассрочка',

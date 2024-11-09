@@ -19,4 +19,9 @@
     .main-title {
         gap: 12px;
     }
+}
+@media screen and (max-width: 743px) {
+    .main-title__paragraph {
+        font-size: 14px;
+    }
 } /*# sourceMappingURL=pageTitle.css.map */

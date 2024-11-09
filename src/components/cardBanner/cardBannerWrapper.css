@@ -12,4 +12,11 @@
         order: 3;
         width: 301px;
     }
+}
+@media screen and (max-width: 743px) {
+    .card__banner-wrapper {
+        order: 2;
+        width: 100%;
+        gap: 4px;
+    }
 } /*# sourceMappingURL=cardBannerWrapper.css.map */

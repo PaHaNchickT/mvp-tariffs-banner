@@ -1,7 +1,7 @@
 @charset "UTF-8";
 section {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .card {
@@ -18,7 +18,8 @@ section {
 }
 .card-1::before {
     content: 'Лучший тариф';
-    width: 132px;
+    letter-spacing: 0.4px;
+    width: 124px;
     height: 32px;
     position: absolute;
     background: linear-gradient(to bottom, #fff289, #d2a41d);
@@ -37,7 +38,7 @@ section {
     box-sizing: border-box;
     width: 424px;
     background-color: #ffffff;
-    padding: 32px 12px;
+    padding: 32px 12px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

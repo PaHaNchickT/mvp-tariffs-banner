@@ -112,7 +112,9 @@
     border-radius: 10px;
     line-height: 19.6px;
     right: 2px;
-    top: 59px;
+    top: 60px;
+    line-height: 20px;
+    letter-spacing: 0.18px;
 }
 .hint-msg::before {
     position: absolute;

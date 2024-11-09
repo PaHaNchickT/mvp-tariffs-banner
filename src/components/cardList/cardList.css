@@ -3,9 +3,13 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 84.5%;
+    padding-left: 20px;
 }
 
 .card__list > li {
+    padding-left: 6px;
+    line-height: 22.4px;
     list-style-image: url(https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/confirm-icon.svg);
 }
 .card__list > li::marker {

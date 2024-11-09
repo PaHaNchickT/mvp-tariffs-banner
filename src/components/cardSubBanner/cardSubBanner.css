@@ -30,8 +30,7 @@
     z-index: 5;
 }
 
-.card_sub-banner__title,
-.card_sub-banner__hint {
+.card_sub-banner__title {
     position: relative;
     z-index: 3;
     font-family: 'Mazzard';
@@ -41,11 +40,6 @@
     font-size: 24px;
     width: 179px;
     line-height: 26.4px;
-}
-
-.card_sub-banner__hint {
-    width: 20px;
-    cursor: pointer;
 }
 
 .card-1__sub-banner {
@@ -101,40 +95,6 @@
     background-image: url('../../public/icons/sub-baner-2-shadow.svg');
 }
 
-.hint-msg {
-    box-sizing: border-box;
-    position: absolute;
-    width: 302px;
-    padding: 8px 12px;
-    background-color: #0e0f11;
-    z-index: -1;
-    opacity: 0;
-    font-size: 14px;
-    border-radius: 10px;
-    line-height: 19.6px;
-    right: 2px;
-    top: 60px;
-    line-height: 20px;
-    letter-spacing: 0.18px;
-}
-.hint-msg::before {
-    position: absolute;
-    content: '';
-    width: 24px;
-    height: 14px;
-    top: -8px;
-    right: 12px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    background-image: url('../../public/icons/hint-arrow-icon.svg');
-}
-
-.hint-msg.hint-msg-vis {
-    z-index: 10;
-    opacity: 100;
-}
-
 @media screen and (max-width: 1439px) {
     .card__sub-banner::before,
     .card__sub-banner::after {
@@ -188,9 +148,6 @@
         font-size: 17px;
         width: 128px;
         line-height: 18.93px;
-    }
-    .card_sub-banner__hint {
-        width: 14px;
     }
     .card_sub-banner__card-1-img::before {
         width: 165px;

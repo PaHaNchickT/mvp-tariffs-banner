@@ -2,6 +2,7 @@ import TIMER_CONFIG from '../../constants/const-timer-config';
 import { TItem } from '../../types/types';
 import timeFormatter from '../../utils/timeFormatter';
 import CardBanner from '../cardBanner/cardBanner';
+import CardHint from '../cardHint/cardHint';
 import CardList from '../cardList/cardList';
 import CardSubBanner from '../cardSubBanner/cardSubBanner';
 import CardTimer from '../cardTimer/cardTimer';
@@ -15,6 +16,8 @@ export default class CardItem {
     cardTimer = new CardTimer(timeFormatter(TIMER_CONFIG.seconds));
 
     cardBanner;
+
+    hintInstance = new CardHint();
 
     constructor(itemData: TItem) {
         this.itemData = itemData;
@@ -46,7 +49,11 @@ export default class CardItem {
         bannersWrapper.className = `card__banner-wrapper card-${this.itemData.id}__banner-wrapper`;
 
         bannersWrapper.append(this.cardBanner.render());
-        if (this.itemData.isSubBanner) bannersWrapper.append(new CardSubBanner(this.itemData).render());
+        if (this.itemData.isSubBanner)
+            bannersWrapper.append(
+                new CardSubBanner(this.itemData, this.hintInstance.renderHintBtn()).render(),
+                this.hintInstance.renderHintMsg()
+            );
 
         if (this.itemData.isTimer) {
             this.timerController();

@@ -2,6 +2,7 @@ import { TItem } from '../../types/types';
 import CardBanner from '../cardBanner/cardBanner';
 import CardList from '../cardList/cardList';
 import CardSubBanner from '../cardSubBanner/cardSubBanner';
+import CardTimer from '../cardTimer/cardTimer';
 import CardTitleWrapper from '../cardTitleWrapper/cardTitleWrapper';
 
 import './cardItem.css';
@@ -25,6 +26,8 @@ export default class CardItem {
 
         bannersWrapper.append(new CardBanner(this.itemData).render());
         if (this.itemData.isSubBanner) bannersWrapper.append(new CardSubBanner(this.itemData).render());
+
+        if (this.itemData.isTimer) itemWrapper.appendChild(new CardTimer().render());
 
         itemWrapper.append(
             new CardTitleWrapper(this.itemData).render(),

@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     padding: 32px 24px 24px;
-    gap: 24px;
+    gap: 20px;
     overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
     color: white;
     background-color: #0e0f11;
     width: 100%;
-    padding: 22.5px 0;
+    padding: 21px 0;
     border-radius: 16px;
     z-index: 5;
 }

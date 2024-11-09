@@ -19,7 +19,6 @@ html {
 body {
     margin: 0;
     padding: 48px 0;
-    width: 100vw;
     min-height: 100vh;
     overflow: hidden;
     font-family: Asian;
@@ -99,5 +98,17 @@ button:disabled {
         font-size: 24px;
         line-height: 28.8px;
         letter-spacing: 1px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    body {
+        padding: 32px 20px;
+    }
+    main {
+        width: 100%;
+        gap: 37px;
+    }
+    h4 {
+        letter-spacing: 0.5px;
     }
 } /*# sourceMappingURL=general.css.map */

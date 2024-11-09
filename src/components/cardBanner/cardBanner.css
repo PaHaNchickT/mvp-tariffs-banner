@@ -70,4 +70,16 @@
     .card-1__banner::before {
         background-image: url('../../public/icons/banner-bg-low.svg');
     }
+}
+@media screen and (max-width: 1023px) {
+    .card__banner {
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+    .card__banner__text-wrapper {
+        flex-grow: 1;
+        justify-content: center;
+        gap: 8px;
+        padding-top: 10px;
+    }
 } /*# sourceMappingURL=cardBanner.css.map */

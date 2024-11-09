@@ -2,13 +2,14 @@
     box-sizing: border-box;
     width: 98px;
     position: absolute;
-    top: 16px;
-    left: 16px;
+    top: 18px;
+    left: 17px;
     font-size: 14px;
     color: #f24c41;
     background-color: rgba(240, 87, 77, 0.2);
-    padding: 6px 0 6px 28px;
+    padding: 8px 0 8px 28px;
     border-radius: 1000px;
+    letter-spacing: 1px;
 }
 .card__timer::before {
     content: '';

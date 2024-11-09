@@ -11,4 +11,19 @@
 .card__list > li::marker {
     position: relative;
     top: 4px;
+}
+
+.card-2__list > li:nth-child(1) {
+    position: relative;
+}
+.card-2__list > li:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url('../../public/icons/partners-icon.svg');
+    margin-left: 6px;
 } /*# sourceMappingURL=cardList.css.map */

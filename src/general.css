@@ -6,6 +6,10 @@
     font-family: 'Mazzard';
     src: url('./public/fonts/Mazzard.ttf');
 }
+* {
+    transition: 0.3s;
+}
+
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -49,9 +53,6 @@ h4 {
     font-size: 32px;
 }
 
-a {
-    transition: 0.3s;
-}
 a:link,
 a:active,
 a:visited {
@@ -66,4 +67,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 48px;
+}
+
+button {
+    cursor: pointer;
+}
+button:hover {
+    opacity: 80%;
 } /*# sourceMappingURL=general.css.map */

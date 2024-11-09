@@ -1,4 +1,6 @@
+import TIMER_CONFIG from '../../constants/const-timer-config';
 import { TItem } from '../../types/types';
+import timeFormatter from '../../utils/timeFormatter';
 import CardBanner from '../cardBanner/cardBanner';
 import CardList from '../cardList/cardList';
 import CardSubBanner from '../cardSubBanner/cardSubBanner';
@@ -10,8 +12,27 @@ import './cardItem.css';
 export default class CardItem {
     itemData: TItem;
 
+    cardTimer = new CardTimer(timeFormatter(TIMER_CONFIG.seconds));
+
+    cardBanner;
+
     constructor(itemData: TItem) {
         this.itemData = itemData;
+        this.cardBanner = new CardBanner(this.itemData);
+    }
+
+    timerController() {
+        let secondsLeft = TIMER_CONFIG.seconds;
+
+        const timerId = setInterval(() => {
+            secondsLeft -= 1;
+            this.cardTimer.timeUpdate(timeFormatter(secondsLeft));
+
+            if (secondsLeft === 0) {
+                clearInterval(timerId);
+                this.cardBanner.buttonDisabling();
+            }
+        }, 1000);
     }
 
     render() {
@@ -24,10 +45,13 @@ export default class CardItem {
         const bannersWrapper = document.createElement('div');
         bannersWrapper.className = `card__banner-wrapper card-${this.itemData.id}__banner-wrapper`;
 
-        bannersWrapper.append(new CardBanner(this.itemData).render());
+        bannersWrapper.append(this.cardBanner.render());
         if (this.itemData.isSubBanner) bannersWrapper.append(new CardSubBanner(this.itemData).render());
 
-        if (this.itemData.isTimer) itemWrapper.appendChild(new CardTimer().render());
+        if (this.itemData.isTimer) {
+            this.timerController();
+            itemWrapper.appendChild(this.cardTimer.render());
+        }
 
         itemWrapper.append(
             new CardTitleWrapper(this.itemData).render(),

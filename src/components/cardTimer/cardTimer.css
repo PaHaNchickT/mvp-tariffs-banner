@@ -1,12 +1,13 @@
 .card__timer {
+    box-sizing: border-box;
+    width: 98px;
     position: absolute;
     top: 16px;
     left: 16px;
     font-size: 14px;
     color: #f24c41;
     background-color: rgba(240, 87, 77, 0.2);
-    padding: 6px 12px;
-    padding-left: 28px;
+    padding: 6px 0 6px 28px;
     border-radius: 1000px;
 }
 .card__timer::before {

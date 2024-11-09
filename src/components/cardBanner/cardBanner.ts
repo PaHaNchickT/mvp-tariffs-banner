@@ -6,8 +6,14 @@ import './cardBannerWrapper.css';
 export default class CardBanner {
     itemData: TItem;
 
+    choiceButton = document.createElement('button');
+
     constructor(itemData: TItem) {
         this.itemData = itemData;
+    }
+
+    buttonDisabling() {
+        this.choiceButton.disabled = true;
     }
 
     render() {
@@ -23,12 +29,11 @@ export default class CardBanner {
         const subTitle = document.createElement('p');
         subTitle.textContent = this.itemData.banner.subTitle;
 
-        const button = document.createElement('button');
-        button.textContent = this.itemData.banner.button;
-        button.onclick = () => console.log(this.itemData.titleWrapper.title.textContent);
+        this.choiceButton.textContent = this.itemData.banner.button;
+        this.choiceButton.onclick = () => console.log(this.itemData.titleWrapper.title.textContent);
 
         textWrapper.append(title, subTitle);
-        banner.append(textWrapper, button);
+        banner.append(textWrapper, this.choiceButton);
 
         return banner;
     }

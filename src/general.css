@@ -74,4 +74,8 @@ button {
 }
 button:hover {
     opacity: 80%;
+}
+button:disabled {
+    opacity: 80%;
+    cursor: auto;
 } /*# sourceMappingURL=general.css.map */

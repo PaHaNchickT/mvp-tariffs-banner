@@ -1,11 +1,18 @@
 import './cardTimer.css';
 
 export default class CardTimer {
-    render() {
-        const timer = document.createElement('div');
-        timer.textContent = '22:36:10';
-        timer.className = 'card__timer';
+    timer = document.createElement('div');
 
-        return timer;
+    constructor(startTime: string) {
+        this.timer.textContent = startTime;
+        this.timer.className = 'card__timer';
+    }
+
+    timeUpdate(currentTime: string) {
+        this.timer.textContent = currentTime;
+    }
+
+    render() {
+        return this.timer;
     }
 }

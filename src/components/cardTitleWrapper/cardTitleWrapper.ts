@@ -5,8 +5,22 @@ import './cardTitleWrapper.css';
 export default class CardTitleWrapper {
     itemData: TItem;
 
+    subTitle = document.createElement('p');
+
     constructor(itemData: TItem) {
         this.itemData = itemData;
+
+        window.addEventListener('resize', this.textContentUpdater.bind(this));
+    }
+
+    textContentUpdater() {
+        const windowWidth = window.innerWidth;
+
+        if (windowWidth < 1440 && windowWidth >= 1024) {
+            this.subTitle.textContent = 'Основные вопросы и направления';
+        } else {
+            this.subTitle.textContent = this.itemData.titleWrapper.subTitle;
+        }
     }
 
     render() {
@@ -22,10 +36,9 @@ export default class CardTitleWrapper {
         const title = document.createElement(this.itemData.titleWrapper.title.tag);
         title.textContent = this.itemData.titleWrapper.title.textContent;
 
-        const subTitle = document.createElement('p');
-        subTitle.textContent = this.itemData.titleWrapper.subTitle;
+        this.textContentUpdater();
 
-        textWrapper.append(title, subTitle);
+        textWrapper.append(title, this.subTitle);
         titleWrapper.append(icon, textWrapper);
 
         return titleWrapper;

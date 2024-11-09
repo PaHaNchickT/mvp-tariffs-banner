@@ -8,4 +8,10 @@
 .main-title__paragraph {
     font-size: 16px;
     color: #c3c8cf;
+}
+
+@media screen and (max-width: 1439px) {
+    .main-title {
+        gap: 16px;
+    }
 } /*# sourceMappingURL=pageTitle.css.map */

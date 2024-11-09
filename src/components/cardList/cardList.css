@@ -30,4 +30,17 @@
     background-size: cover;
     background-image: url('../../public/icons/partners-icon.svg');
     margin-left: 6px;
+}
+
+@media screen and (max-width: 1439px) {
+    .card__list {
+        gap: 8px;
+        font-size: 14px;
+        padding-left: 22px;
+        width: 83%;
+    }
+    .card__list > li {
+        line-height: 20px;
+        padding-left: 2px;
+    }
 } /*# sourceMappingURL=cardList.css.map */

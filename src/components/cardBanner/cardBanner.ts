@@ -6,10 +6,24 @@ import './cardBannerWrapper.css';
 export default class CardBanner {
     itemData: TItem;
 
+    subTitle = document.createElement('p');
+
     choiceButton = document.createElement('button');
 
     constructor(itemData: TItem) {
         this.itemData = itemData;
+
+        if (itemData.id === 2) window.addEventListener('resize', this.textContentUpdater.bind(this));
+    }
+
+    textContentUpdater() {
+        const windowWidth = window.innerWidth;
+
+        if (windowWidth < 1440 && windowWidth >= 744) {
+            this.subTitle.textContent = 'Единоразовый платеж';
+        } else {
+            this.subTitle.textContent = this.itemData.banner.subTitle;
+        }
     }
 
     buttonDisabling() {
@@ -26,13 +40,13 @@ export default class CardBanner {
         const title = document.createElement(this.itemData.banner.title.tag);
         title.textContent = this.itemData.banner.title.textContent;
 
-        const subTitle = document.createElement('p');
-        subTitle.textContent = this.itemData.banner.subTitle;
+        this.subTitle.textContent = this.itemData.banner.subTitle;
+        if (this.itemData.id === 2) this.textContentUpdater();
 
         this.choiceButton.textContent = this.itemData.banner.button;
         this.choiceButton.onclick = () => console.log(this.itemData.titleWrapper.title.textContent);
 
-        textWrapper.append(title, subTitle);
+        textWrapper.append(title, this.subTitle);
         banner.append(textWrapper, this.choiceButton);
 
         return banner;

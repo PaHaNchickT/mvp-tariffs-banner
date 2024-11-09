@@ -21,4 +21,10 @@
     background-position: 50%;
     background-size: cover;
     background-image: url('../../public/icons/timer-icon.svg');
+}
+
+@media screen and (max-width: 1439px) {
+    .card__timer {
+        left: 19px;
+    }
 } /*# sourceMappingURL=cardTimer.css.map */

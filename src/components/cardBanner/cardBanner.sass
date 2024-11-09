@@ -47,3 +47,18 @@
 
 .card-1__banner > .card__banner__text-wrapper > p, .card-1__banner > .card__banner__text-wrapper > h3
     color: #FFFFFF
+
+@media screen and (max-width: 1439px)
+    .card__banner
+        padding: 24px 16px 16px
+        gap: 22px
+
+    .card__banner > button
+        padding: 21px 0 18px
+
+    .card__banner__text-wrapper > p
+        font-size: 14px
+
+    .card-1__banner
+        &::before
+            background-image: url('../../public/icons/banner-bg-low.svg')

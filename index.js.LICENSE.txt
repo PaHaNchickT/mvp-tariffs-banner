@@ -1,0 +1,549 @@
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./app-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./app-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-banner-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-banner-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-banner-wrapper-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-banner-wrapper-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-hint-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-hint-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-item-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-item-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-list-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-list-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-sub-banner-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-sub-banner-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-timer-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-timer-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-title-wrapper-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./card-title-wrapper-resp.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./page-title-general.sass */
+
+/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./page-title-resp.sass */
+
+/*! !!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.css */
+
+/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */
+
+/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */
+
+/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
+
+/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */
+
+/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */
+
+/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+
+/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */
+
+/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */
+
+/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */
+
+/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */
+
+/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */
+
+/*! ../../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */
+
+/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */
+
+/*! ../../constants/const-main-content */
+
+/*! ../../constants/const-timer-config */
+
+/*! ../../constants/const-title-content */
+
+/*! ../../public/icons/banner-bg-low.svg */
+
+/*! ../../public/icons/banner-bg.svg */
+
+/*! ../../public/icons/hint-arrow-icon.svg */
+
+/*! ../../public/icons/partners-icon.svg */
+
+/*! ../../public/icons/sub-baner-1-bg-low.svg */
+
+/*! ../../public/icons/sub-baner-1-bg.svg */
+
+/*! ../../public/icons/sub-baner-1-card-low.svg */
+
+/*! ../../public/icons/sub-baner-1-card-lowest.svg */
+
+/*! ../../public/icons/sub-baner-1-card-middle.svg */
+
+/*! ../../public/icons/sub-baner-1-card.svg */
+
+/*! ../../public/icons/sub-baner-1-shadow-low.svg */
+
+/*! ../../public/icons/sub-baner-1-shadow.svg */
+
+/*! ../../public/icons/sub-baner-2-bg-low.svg */
+
+/*! ../../public/icons/sub-baner-2-bg.svg */
+
+/*! ../../public/icons/sub-baner-2-card-low.svg */
+
+/*! ../../public/icons/sub-baner-2-card-lowest.svg */
+
+/*! ../../public/icons/sub-baner-2-card-middle.svg */
+
+/*! ../../public/icons/sub-baner-2-card.svg */
+
+/*! ../../public/icons/sub-baner-2-shadow-low.svg */
+
+/*! ../../public/icons/sub-baner-2-shadow.svg */
+
+/*! ../../public/icons/sub-baner-light.svg */
+
+/*! ../../public/icons/timer-icon.svg */
+
+/*! ../../utils/timeFormatter */
+
+/*! ../card-banner/card-banner */
+
+/*! ../card-hint/card-hint */
+
+/*! ../card-item/card-item */
+
+/*! ../card-list/card-list */
+
+/*! ../card-sub-banner/card-sub-banner */
+
+/*! ../card-timer/card-timer */
+
+/*! ../card-title-wrapper/card-title-wrapper */
+
+/*! ../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../node_modules/css-loader/dist/runtime/getUrl.js */
+
+/*! ../node_modules/css-loader/dist/runtime/sourceMaps.js */
+
+/*! ../page-title/page-title */
+
+/*! ./app-general.sass */
+
+/*! ./app-resp.sass */
+
+/*! ./card-banner-general.sass */
+
+/*! ./card-banner-resp.sass */
+
+/*! ./card-banner-wrapper-general.sass */
+
+/*! ./card-banner-wrapper-resp.sass */
+
+/*! ./card-hint-general.sass */
+
+/*! ./card-hint-resp.sass */
+
+/*! ./card-item-general.sass */
+
+/*! ./card-item-resp.sass */
+
+/*! ./card-list-general.sass */
+
+/*! ./card-list-resp.sass */
+
+/*! ./card-sub-banner-general.sass */
+
+/*! ./card-sub-banner-resp.sass */
+
+/*! ./card-timer-general.sass */
+
+/*! ./card-timer-resp.sass */
+
+/*! ./card-title-wrapper-general.sass */
+
+/*! ./card-title-wrapper-resp.sass */
+
+/*! ./components/app/app */
+
+/*! ./page-title-general.sass */
+
+/*! ./page-title-resp.sass */
+
+/*! ./public/fonts/Mazzard.ttf */
+
+/*! ./public/fonts/SF UI Display.ttf */
+
+/*! ./style.css */
+
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
+
+/*!***********************************!*\
+  !*** ./src/components/app/app.ts ***!
+  \***********************************/
+
+/*!************************************!*\
+  !*** ./src/utils/timeFormatter.ts ***!
+  \************************************/
+
+/*!**************************************!*\
+  !*** ./src/public/fonts/Mazzard.ttf ***!
+  \**************************************/
+
+/*!****************************************!*\
+  !*** ./src/public/icons/banner-bg.svg ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/public/icons/timer-icon.svg ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/app/app-resp.sass ***!
+  \******************************************/
+
+/*!********************************************!*\
+  !*** ./src/public/fonts/SF UI Display.ttf ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/public/icons/banner-bg-low.svg ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/public/icons/partners-icon.svg ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/components/app/app-general.sass ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/constants/const-main-content.ts ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/constants/const-timer-config.ts ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/public/icons/sub-baner-1-bg.svg ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/public/icons/sub-baner-2-bg.svg ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/constants/const-title-content.ts ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/public/icons/hint-arrow-icon.svg ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/public/icons/sub-baner-light.svg ***!
+  \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/card-hint/card-hint.ts ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/card-item/card-item.ts ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/components/card-list/card-list.ts ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/public/icons/sub-baner-1-card.svg ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/public/icons/sub-baner-2-card.svg ***!
+  \***********************************************/
+
+/*!*************************************************!*\
+  !*** ./src/components/card-timer/card-timer.ts ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/components/page-title/page-title.ts ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/public/icons/sub-baner-1-bg-low.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/public/icons/sub-baner-1-shadow.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/public/icons/sub-baner-2-bg-low.svg ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/public/icons/sub-baner-2-shadow.svg ***!
+  \*************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/components/card-banner/card-banner.ts ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/public/icons/sub-baner-1-card-low.svg ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/public/icons/sub-baner-2-card-low.svg ***!
+  \***************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/public/icons/sub-baner-1-shadow-low.svg ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/public/icons/sub-baner-2-shadow-low.svg ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/components/card-hint/card-hint-resp.sass ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/components/card-item/card-item-resp.sass ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/components/card-list/card-list-resp.sass ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/public/icons/sub-baner-1-card-lowest.svg ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/public/icons/sub-baner-1-card-middle.svg ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/public/icons/sub-baner-2-card-lowest.svg ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/public/icons/sub-baner-2-card-middle.svg ***!
+  \******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/components/card-timer/card-timer-resp.sass ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/components/page-title/page-title-resp.sass ***!
+  \********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/components/card-hint/card-hint-general.sass ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/components/card-item/card-item-general.sass ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/components/card-list/card-list-general.sass ***!
+  \*********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./src/components/card-banner/card-banner-resp.sass ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/components/card-sub-banner/card-sub-banner.ts ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/components/card-timer/card-timer-general.sass ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/components/page-title/page-title-general.sass ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./src/components/card-banner/card-banner-general.sass ***!
+  \*************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+
+/*!*****************************************************************!*\
+  !*** ./src/components/card-title-wrapper/card-title-wrapper.ts ***!
+  \*****************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./src/components/card-banner/card-banner-wrapper-resp.sass ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./src/components/card-sub-banner/card-sub-banner-resp.sass ***!
+  \******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./src/components/card-banner/card-banner-wrapper-general.sass ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./src/components/card-sub-banner/card-sub-banner-general.sass ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./src/components/card-title-wrapper/card-title-wrapper-resp.sass ***!
+  \************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./src/components/card-title-wrapper/card-title-wrapper-general.sass ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.css ***!
+  \****************************************************************************************************/
+
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/app-resp.sass ***!
+  \***********************************************************************************************************************/
+
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/app/app-general.sass ***!
+  \**************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-hint/card-hint-resp.sass ***!
+  \***********************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-item/card-item-resp.sass ***!
+  \***********************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-list/card-list-resp.sass ***!
+  \***********************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-timer/card-timer-resp.sass ***!
+  \*************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/page-title/page-title-resp.sass ***!
+  \*************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-hint/card-hint-general.sass ***!
+  \**************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-item/card-item-general.sass ***!
+  \**************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-list/card-list-general.sass ***!
+  \**************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-banner/card-banner-resp.sass ***!
+  \***************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-timer/card-timer-general.sass ***!
+  \****************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/page-title/page-title-general.sass ***!
+  \****************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-banner/card-banner-general.sass ***!
+  \******************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-banner/card-banner-wrapper-resp.sass ***!
+  \***********************************************************************************************************************************************/
+
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-sub-banner/card-sub-banner-resp.sass ***!
+  \***********************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-banner/card-banner-wrapper-general.sass ***!
+  \**************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-sub-banner/card-sub-banner-general.sass ***!
+  \**************************************************************************************************************************************************/
+
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-title-wrapper/card-title-wrapper-resp.sass ***!
+  \*****************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/card-title-wrapper/card-title-wrapper-general.sass ***!
+  \********************************************************************************************************************************************************/

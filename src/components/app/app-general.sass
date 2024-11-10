@@ -6,6 +6,10 @@ html
     scroll-behavior: smooth
     -webkit-tap-highlight-color: transparent
 
+body, main
+    display: flex
+    flex-direction: column
+
 body
     margin: 0
     padding: 48px 0
@@ -14,12 +18,13 @@ body
     font-family: Asian
     font-size: 18px
     background-color: #F3F7FB
-    display: flex
-    flex-direction: column
     justify-content: center
     align-items: center
     position: relative
     font-family: SF-UI-Display
+
+main
+    gap: 44px
 
 h1, h3, h4, p, ul
     margin: 0
@@ -44,11 +49,6 @@ a
         text-decoration: none
     &:hover
         text-decoration: underline
-
-main
-    display: flex
-    flex-direction: column
-    gap: 44px
 
 button
     box-sizing: border-box

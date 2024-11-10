@@ -18,7 +18,7 @@ export default class CardTitleWrapper {
         const windowWidth = window.innerWidth;
 
         if (windowWidth < 1440 && windowWidth >= 1024) {
-            this.subTitle.textContent = 'Основные вопросы и направления';
+            this.subTitle.textContent = this.itemData.titleWrapper.subTitleAlt;
         } else {
             this.subTitle.textContent = this.itemData.titleWrapper.subTitle;
         }

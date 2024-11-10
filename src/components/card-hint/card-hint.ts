@@ -1,3 +1,5 @@
+import GENERAL_IMG_PATH from '../../constants/const-img-path';
+import TEXT_CONTENT from '../../constants/const-text-content';
 import './card-hint-general.sass';
 import './card-hint-resp.sass';
 
@@ -19,8 +21,7 @@ export default class CardHint {
 
     renderHintMsg() {
         this.hintMsg.className = 'hint-msg';
-        this.hintMsg.textContent =
-            'Для Вашего спокойствия мы гарантируем возврат оплаты в случае отсутствия списания долгов после процедуры.';
+        this.hintMsg.textContent = TEXT_CONTENT.hintMsg;
 
         return this.hintMsg;
     }
@@ -30,8 +31,7 @@ export default class CardHint {
 
         const hint = new Image(0, 0);
         hint.alt = 'hint-button-image';
-        hint.src =
-            'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/hint-icon.svg';
+        hint.src = GENERAL_IMG_PATH.hintImg;
 
         this.hintBtn.append(hint);
 

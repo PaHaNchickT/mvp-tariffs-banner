@@ -1,15 +1,17 @@
 import { TItem } from '../types/types';
+import GENERAL_IMG_PATH from './const-img-path';
 
 const MAIN_CONTENT: TItem[] = [
     {
         id: 0,
         titleWrapper: {
-            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/title-wrapperIcon-01.svg',
+            img: GENERAL_IMG_PATH.promoIcons[0],
             title: {
                 tag: 'h4',
                 textContent: 'Консультация',
             },
             subTitle: 'Основные вопросы и направления',
+            subTitleAlt: 'Основные вопросы и направления',
         },
         banner: {
             title: {
@@ -17,6 +19,7 @@ const MAIN_CONTENT: TItem[] = [
                 textContent: 'Бесплатно',
             },
             subTitle: 'В любое время',
+            subTitleAlt: 'Единоразовый платеж',
             button: 'Выбрать',
         },
         isSubBanner: false,
@@ -31,12 +34,13 @@ const MAIN_CONTENT: TItem[] = [
     {
         id: 1,
         titleWrapper: {
-            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/title-wrapperIcon-02.svg',
+            img: GENERAL_IMG_PATH.promoIcons[1],
             title: {
                 tag: 'h4',
                 textContent: 'Базовый тариф',
             },
             subTitle: 'От любого банка без процентов и переплат',
+            subTitleAlt: 'Основные вопросы и направления',
         },
         banner: {
             title: {
@@ -44,6 +48,7 @@ const MAIN_CONTENT: TItem[] = [
                 textContent: '65 000 ₽',
             },
             subTitle: 'Единоразовый платеж',
+            subTitleAlt: 'Единоразовый платеж',
             button: 'Выбрать',
         },
         isSubBanner: true,
@@ -62,12 +67,13 @@ const MAIN_CONTENT: TItem[] = [
     {
         id: 2,
         titleWrapper: {
-            img: 'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/title-wrapperIcon-03.svg',
+            img: GENERAL_IMG_PATH.promoIcons[2],
             title: {
                 tag: 'h4',
                 textContent: 'Рассрочка',
             },
             subTitle: 'От любого банка без процентов и переплат',
+            subTitleAlt: 'Основные вопросы и направления',
         },
         banner: {
             title: {
@@ -75,6 +81,7 @@ const MAIN_CONTENT: TItem[] = [
                 textContent: '3880 ₽ / мес.',
             },
             subTitle: 'На 24 месяца',
+            subTitleAlt: 'Единоразовый платеж',
             button: 'Выбрать',
         },
         isSubBanner: true,

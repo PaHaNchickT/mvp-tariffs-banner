@@ -22,7 +22,7 @@ export default class CardBanner {
         const windowWidth = window.innerWidth;
 
         if (windowWidth < 1440 && windowWidth >= 744) {
-            this.subTitle.textContent = 'Единоразовый платеж';
+            this.subTitle.textContent = this.itemData.banner.subTitleAlt;
         } else {
             this.subTitle.textContent = this.itemData.banner.subTitle;
         }

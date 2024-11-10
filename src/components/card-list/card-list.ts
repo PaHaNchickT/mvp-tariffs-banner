@@ -1,3 +1,4 @@
+import TEXT_CONTENT from '../../constants/const-text-content';
 import { TItem } from '../../types/types';
 
 import './card-list-general.sass';
@@ -18,7 +19,7 @@ export default class CardList {
         const windowWidth = window.innerWidth;
 
         if (windowWidth < 1440 && windowWidth >= 744) {
-            this.partnerLi.textContent = 'Варианты рассрочки';
+            this.partnerLi.textContent = TEXT_CONTENT.listItemAltText;
         } else {
             [this.partnerLi.textContent] = this.itemData.ul;
         }

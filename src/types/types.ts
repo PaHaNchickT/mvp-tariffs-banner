@@ -9,10 +9,12 @@ export type TItem = {
         img: string;
         title: TElementData;
         subTitle: string;
+        subTitleAlt: string;
     };
     banner: {
         title: TElementData;
         subTitle: string;
+        subTitleAlt: string;
         button: string;
     };
     isSubBanner: boolean;

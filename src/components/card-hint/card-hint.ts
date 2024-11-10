@@ -34,7 +34,7 @@ export default class CardHint {
         this.hintMsg.className = 'hint-msg';
         this.hintMsg.textContent = TEXT_CONTENT.hintMsg;
         this.hintMsg.id = 'message';
-        this.hintMsg.role = 'textbox';
+        this.hintMsg.role = 'dialog';
         this.hintMsg.ariaHidden = 'true';
 
         return this.hintMsg;
@@ -44,9 +44,10 @@ export default class CardHint {
         this.hintBtn.className = 'card_sub-banner__hint';
         this.hintBtn.role = TEXT_CONTENT.hintBtnRole;
         this.hintBtn.ariaLabel = TEXT_CONTENT.hintBtnLabel;
-        this.hintBtn.ariaHasPopup = 'hintMsg';
+        this.hintBtn.ariaHasPopup = 'dialog';
         this.hintBtn.ariaPressed = 'false';
         this.hintBtn.ariaExpanded = 'false';
+        this.hintBtn.setAttribute('aria-controls', 'message');
 
         const hint = new Image(0, 0);
         hint.alt = 'hint-button-image';

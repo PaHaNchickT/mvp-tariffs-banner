@@ -42,6 +42,13 @@
 
 -   `npm run start` запускает локальный сервер;
 -   `npm run build` компилирует билд;
--   `npm run lint` запускает линтер для проверки файлов;
--   `npm run format` запускает форматирование файлов;
+-   `npm run lint` запускает линтер для проверки файлов; As a result you will run ESLint checks
+-   `npm run lint:format` запускает линтер для проверки файлов; As a result you will run ESLint for automatically problems fixing
+-   `npm run ci:format` запускает форматирование файлов; As a result you will run Prettier for code issues checking
+-   `npm run format` запускает форматирование файлов; As a result you will run Prettier for auto-formatting
 -   `npm run prepare` запускает выполнение локальных хуков husky.
+
+"lint": "eslint --fix \"**/*.{ts,tsx}\"",
+        "lint:format": "eslint --ext .ts",
+        "format": "prettier src --write",
+        "ci:format": "prettier src --check",

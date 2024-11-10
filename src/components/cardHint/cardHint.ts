@@ -1,4 +1,5 @@
-import './cardHint.sass';
+import './card-hint-general.sass';
+import './card-hint-resp.sass';
 
 export default class CardHint {
     hintBtn = document.createElement('button');

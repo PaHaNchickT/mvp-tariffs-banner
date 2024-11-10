@@ -1,6 +1,7 @@
 import { TItem } from '../../types/types';
 
-import './cardTitleWrapper.sass';
+import './card-title-wrapper-general.sass';
+import './card-title-wrapper-resp.sass';
 
 export default class CardTitleWrapper {
     itemData: TItem;

@@ -1,0 +1,52 @@
+@media screen and (max-width: 1439px)
+    .card__wrapper
+        width: 304px
+        padding: 24px 12px 34px
+
+@media screen and (max-width: 1023px)
+    section
+        flex-direction: column
+        gap: 4px
+
+    .card__wrapper
+        width: 100%
+        height: 397px
+        align-items: flex-start
+        flex-wrap: wrap
+        padding: 12px
+        padding-left: 24px
+        gap: 20px
+        align-content: space-between
+
+    .card-0__wrapper
+        height: 333px
+
+    .card-0
+        order: 3
+
+    .card-1
+        order: 1
+        &::before
+            left: 26px
+
+    .card-2
+        order: 2
+
+@media screen and (max-width: 743px)
+    section
+        gap: 6px
+
+    .card__wrapper
+        padding: 24px
+        flex-wrap: nowrap
+        height: auto
+        gap: 15px
+
+    .card-1
+        order: 1
+        &::before
+            top: -23px
+            font-size: 12px
+            left: calc((100% - 105px) / 2)
+            width: 105px
+            height: 26px

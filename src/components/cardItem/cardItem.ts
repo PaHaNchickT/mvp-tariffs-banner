@@ -8,10 +8,8 @@ import CardSubBanner from '../cardSubBanner/cardSubBanner';
 import CardTimer from '../cardTimer/cardTimer';
 import CardTitleWrapper from '../cardTitleWrapper/cardTitleWrapper';
 
-import './cardItem-general.sass';
-import './cardItem-resp-1440.sass';
-import './cardItem-resp-1024.sass';
-import './cardItem-resp-744.sass';
+import './card-item-general.sass';
+import './card-item-resp.sass';
 
 export default class CardItem {
     itemData: TItem;

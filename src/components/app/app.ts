@@ -3,9 +3,7 @@ import PageTitle from '../pageTitle/pageTitle';
 import CardItem from '../cardItem/cardItem';
 
 import './app-general.sass';
-import './app-resp-1440.sass';
-import './app-resp-1024.sass';
-import './app-resp-744.sass';
+import './app-resp.sass';
 
 export default class App {
     start() {

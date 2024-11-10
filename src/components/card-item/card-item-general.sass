@@ -1,0 +1,39 @@
+section, .card, .card__wrapper
+    display: flex
+    
+section
+    gap: 16px
+
+.card
+    padding: 4px
+    border-radius: 24px
+    justify-content: center
+    position: relative
+
+.card-1
+    background: linear-gradient(to bottom, #E0B330, #FBEE88, #E0B330) 
+    &::before
+        content: "Лучший тариф"
+        letter-spacing: 0.4px
+        width: 124px
+        height: 32px
+        position: absolute
+        background: linear-gradient(to bottom, #FFF289, #D2A41D) 
+        top: -28px
+        font-size: 14px
+        color: white
+        display: flex
+        justify-content: center
+        align-items: center
+        border-top-right-radius: 16px
+        border-top-left-radius: 16px
+
+.card__wrapper
+    border-radius: 22px
+    box-sizing: border-box
+    width: 424px
+    background-color: #FFFFFF
+    padding: 32px 12px 20px
+    flex-direction: column
+    align-items: center
+    gap: 24px

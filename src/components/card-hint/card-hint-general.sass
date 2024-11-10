@@ -1,0 +1,48 @@
+.card_sub-banner__hint
+    position: relative
+    z-index: 3
+    font-family: 'Mazzard'
+    cursor: pointer
+    padding: 0
+    border: none
+    background-color: rgba(0,0,0,0)
+    border-radius: 100%
+    overflow: hidden
+    width: 20px
+    height: 20px
+
+.card_sub-banner__hint > img
+    width: 100%
+    height: 100%
+    
+.hint-msg
+    box-sizing: border-box
+    position: absolute
+    width: 302px
+    padding: 8px 12px
+    background-color: #0E0F11
+    z-index: -1
+    opacity: 0
+    font-size: 14px
+    border-radius: 10px
+    line-height: 19.6px
+    right: 18px
+    bottom: 189px
+    line-height: 20px
+    letter-spacing: 0.18px
+    color: #FFFFFF
+    &::before
+        position: absolute
+        content: ""
+        width: 24px
+        height: 14px
+        top: -8px
+        right: 12px
+        background-repeat: no-repeat
+        background-position: 50%
+        background-size: cover
+        background-image: url('../../public/icons/hint-arrow-icon.svg')
+
+.hint-msg.hint-msg-vis
+    z-index: 10
+    opacity: 100

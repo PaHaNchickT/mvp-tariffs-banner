@@ -1,0 +1,62 @@
+*
+    transition: 0.3s
+
+html
+    overflow-x: hidden
+    scroll-behavior: smooth
+    -webkit-tap-highlight-color: transparent
+
+body, main
+    display: flex
+    flex-direction: column
+
+body
+    margin: 0
+    padding: 50px 0
+    overflow: hidden
+    font-family: Asian
+    font-size: 18px
+    background-color: #F3F7FB
+    justify-content: center
+    align-items: center
+    position: relative
+    font-family: SF-UI-Display
+
+main
+    gap: 44px
+
+h1, h3, h4, p, ul
+    margin: 0
+
+h1
+    font-size: 56px
+    line-height: 56px
+    letter-spacing: 2px
+
+h3
+    font-size: 40px
+    letter-spacing: 1.5px
+
+h4
+    font-size: 32px
+    line-height: 38.4px
+    letter-spacing: 1px
+
+a
+    &:link, &:active, &:visited
+        color: white
+        text-decoration: none
+    &:hover
+        text-decoration: underline
+
+button
+    box-sizing: border-box
+    border: none
+    cursor: pointer
+    &:hover
+        opacity: 80%
+    &:disabled
+        opacity: 80%
+        cursor: auto
+    &:focus
+        outline: 3px solid #E06030

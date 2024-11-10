@@ -1,0 +1,45 @@
+@media screen and (max-width: 1439px)
+    .card__banner
+        padding: 24px 16px 16px
+        gap: 25px
+
+    .card__banner > button
+        height: 60px
+
+    .card__banner__text-wrapper
+        gap: 6px
+
+    .card__banner__text-wrapper > p
+        font-size: 14px
+
+    .card-1__banner
+        &::before
+            background-image: url('../../public/icons/banner-bg-low.svg')
+
+@media screen and (max-width: 1023px)
+    .card__banner
+        flex-grow: 1
+        justify-content: space-between
+
+    .card__banner__text-wrapper
+        flex-grow: 1
+        justify-content: center
+        gap: 8px
+        padding-top: 14px
+
+@media screen and (max-width: 743px)
+    .card__banner
+        padding: 20px 16px 16px
+        gap: 18px
+        border-radius: 16px
+
+    .card__banner__text-wrapper
+        padding-top: 0
+        gap: 6px
+
+    .card__banner__text-wrapper > p
+        color: #111215
+
+    .card__banner > button
+        height: 48px
+        border-radius: 12px

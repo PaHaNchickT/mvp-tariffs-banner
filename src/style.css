@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'SF-UI-Display';
+    src: url('./public/fonts/SF UI Display.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazzard';
+    src: url('./public/fonts/Mazzard.ttf');
+    font-display: swap;
+}

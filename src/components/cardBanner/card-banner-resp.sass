@@ -1,0 +1,37 @@
+@media screen and (max-width: 1439px)
+    .card__banner
+        padding: 24px 16px 16px
+        gap: 22px
+
+    .card__banner > button
+        padding: 21px 0 18px
+
+    .card__banner__text-wrapper > p
+        font-size: 14px
+
+    .card-1__banner
+        &::before
+            background-image: url('../../public/icons/banner-bg-low.svg')
+
+@media screen and (max-width: 1023px)
+    .card__banner
+        flex-grow: 1
+        justify-content: space-between
+
+    .card__banner__text-wrapper
+        flex-grow: 1
+        justify-content: center
+        gap: 8px
+        padding-top: 10px
+
+@media screen and (max-width: 743px)
+    .card__banner
+        padding: 20px 16px 16px
+        gap: 16px
+
+    .card__banner__text-wrapper
+        padding-top: 0
+        gap: 6px
+
+    .card__banner > button
+        padding: 14px 0

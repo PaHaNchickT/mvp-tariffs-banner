@@ -3,9 +3,11 @@
 @font-face {
     font-family: 'SF-UI-Display';
     src: url('./public/fonts/SF UI Display.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Mazzard';
     src: url('./public/fonts/Mazzard.ttf');
+    font-display: swap;
 }

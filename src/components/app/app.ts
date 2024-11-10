@@ -1,6 +1,6 @@
 import MAIN_CONTENT from '../../constants/const-main-content';
-import PageTitle from '../pageTitle/pageTitle';
-import CardItem from '../cardItem/cardItem';
+import PageTitle from '../page-title/page-title';
+import CardItem from '../card-item/card-item';
 
 import './app-general.sass';
 import './app-resp.sass';

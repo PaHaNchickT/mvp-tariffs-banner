@@ -1,12 +1,12 @@
 import TIMER_CONFIG from '../../constants/const-timer-config';
 import { TItem } from '../../types/types';
 import timeFormatter from '../../utils/timeFormatter';
-import CardBanner from '../cardBanner/cardBanner';
-import CardHint from '../cardHint/cardHint';
-import CardList from '../cardList/cardList';
-import CardSubBanner from '../cardSubBanner/cardSubBanner';
-import CardTimer from '../cardTimer/cardTimer';
-import CardTitleWrapper from '../cardTitleWrapper/cardTitleWrapper';
+import CardBanner from '../card-banner/card-banner';
+import CardHint from '../card-hint/card-hint';
+import CardList from '../card-list/card-list';
+import CardSubBanner from '../card-sub-banner/card-sub-banner';
+import CardTimer from '../card-timer/card-timer';
+import CardTitleWrapper from '../card-title-wrapper/card-title-wrapper';
 
 import './card-item-general.sass';
 import './card-item-resp.sass';

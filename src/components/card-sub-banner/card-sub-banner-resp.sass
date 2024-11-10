@@ -15,6 +15,7 @@
         font-size: 20px
         line-height: 22px
         width: 142px
+        letter-spacing: -0.5px
 
     .card_sub-banner__card-img
         width: 150px
@@ -34,6 +35,10 @@
             background-image: url('../../public/icons/sub-baner-2-shadow-low.svg')
 
 @media screen and (max-width: 1023px)
+    .card_sub-banner__card-img
+        &::after
+            width: 190px
+
     .card_sub-banner__card-1-img
         &::before
             width: 136px
@@ -48,11 +53,13 @@
     .card__sub-banner
         height: 52px
         padding-right: 11px
+        border-radius: 12px
 
     .card_sub-banner__title
         font-size: 17px
         width: 128px
         line-height: 18.93px
+        letter-spacing: 0
 
     .card_sub-banner__card-1-img
         &::before
@@ -63,3 +70,12 @@
         &::before
             width: 150px
             background-image: url('../../public/icons/sub-baner-2-card-lowest.svg')
+
+@media screen and (max-width: 374px)
+    .card_sub-banner__title
+        width: 90px
+        font-size: 14px
+
+    .card_sub-banner__card-img
+        &::before
+            left: -15px

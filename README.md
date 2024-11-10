@@ -15,7 +15,7 @@
 
 ## Особенности
 
-![результаты тестов PageSpeed Insights](https://github.com/user-attachments/assets/844962bf-bc1a-409a-aded-46a6c65f1e49)
+![результаты тестов PageSpeed Insights](https://github.com/user-attachments/assets/e083f688-5acc-4e4f-a3ed-ba56af7e3c35)
 
 Приложение имеет высокие показатели производительности, доступности и SEO (тесты проведены с помощью PageSpeed Insights). Обеспечена возможность навигации и использования функционала с клавиатуры. Контент корректно воспринимается скринридерами для незрячих пользователей.
 
@@ -42,13 +42,8 @@
 
 -   `npm run start` запускает локальный сервер;
 -   `npm run build` компилирует билд;
--   `npm run lint` запускает линтер для проверки файлов; As a result you will run ESLint checks
--   `npm run lint:format` запускает линтер для проверки файлов; As a result you will run ESLint for automatically problems fixing
--   `npm run ci:format` запускает форматирование файлов; As a result you will run Prettier for code issues checking
--   `npm run format` запускает форматирование файлов; As a result you will run Prettier for auto-formatting
+-   `npm run lint` запускает линтер для проверки файлов;
+-   `npm run lint:format` запускает линтер для автоматического исправления ошибок в файлах;
+-   `npm run ci:format` запускает проверку форматирования файлов;
+-   `npm run format` запускает автоматическое форматирование файлов;
 -   `npm run prepare` запускает выполнение локальных хуков husky.
-
-"lint": "eslint --fix \"**/*.{ts,tsx}\"",
-        "lint:format": "eslint --ext .ts",
-        "format": "prettier src --write",
-        "ci:format": "prettier src --check",

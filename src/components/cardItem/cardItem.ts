@@ -8,7 +8,7 @@ import CardSubBanner from '../cardSubBanner/cardSubBanner';
 import CardTimer from '../cardTimer/cardTimer';
 import CardTitleWrapper from '../cardTitleWrapper/cardTitleWrapper';
 
-import './cardItem.css';
+import './cardItem.sass';
 
 export default class CardItem {
     itemData: TItem;

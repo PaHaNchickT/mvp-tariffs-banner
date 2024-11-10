@@ -1,7 +1,7 @@
 import { TItem } from '../../types/types';
 
-import './cardBanner.css';
-import './cardBannerWrapper.css';
+import './cardBanner.sass';
+import './cardBannerWrapper.sass';
 
 export default class CardBanner {
     itemData: TItem;

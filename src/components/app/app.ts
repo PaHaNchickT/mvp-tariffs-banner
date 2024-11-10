@@ -2,6 +2,8 @@ import MAIN_CONTENT from '../../constants/const-main-content';
 import PageTitle from '../pageTitle/pageTitle';
 import CardItem from '../cardItem/cardItem';
 
+import './app.sass';
+
 export default class App {
     start() {
         const itemsWrapper = document.createElement('section');

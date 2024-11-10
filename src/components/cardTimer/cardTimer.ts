@@ -1,4 +1,4 @@
-import './cardTimer.css';
+import './cardTimer.sass';
 
 export default class CardTimer {
     timer = document.createElement('div');

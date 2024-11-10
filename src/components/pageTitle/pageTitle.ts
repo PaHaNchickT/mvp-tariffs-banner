@@ -1,6 +1,6 @@
 import TITLE_CONTENT from '../../constants/const-title-content';
 
-import './pageTitle.css';
+import './pageTitle.sass';
 
 export default class PageTitle {
     render() {

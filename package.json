@@ -7,9 +7,7 @@
         "start": "webpack serve --open --config ./webpack.config.js",
         "build": "webpack --config ./webpack.config.js",
         "lint": "eslint --fix \"**/*.{ts,tsx}\"",
-        "lint:format": "eslint --ext .ts",
         "format": "prettier src --write",
-        "ci:format": "prettier src --check",
         "prepare": "husky"
     },
     "lint-staged": {

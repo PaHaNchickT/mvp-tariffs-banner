@@ -29,6 +29,7 @@ export default class CardHint {
         this.hintBtn.className = 'card_sub-banner__hint';
 
         const hint = new Image(0, 0);
+        hint.alt = 'hint-button-image';
         hint.src =
             'https://raw.githubusercontent.com/PaHaNchickT/mvp-tariffs-banner/refs/heads/develop/src/public/icons/hint-icon.svg';
 

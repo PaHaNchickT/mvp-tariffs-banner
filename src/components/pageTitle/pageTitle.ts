@@ -1,6 +1,9 @@
 import TITLE_CONTENT from '../../constants/const-title-content';
 
-import './pageTitle.sass';
+import './pageTitle-general.sass';
+import './pageTitle-resp-1440.sass';
+import './pageTitle-resp-1024.sass';
+import './pageTitle-resp-744.sass';
 
 export default class PageTitle {
     render() {

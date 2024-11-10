@@ -37,6 +37,7 @@ export default class CardTitleWrapper {
 
         const title = document.createElement(this.itemData.titleWrapper.title.tag);
         title.textContent = this.itemData.titleWrapper.title.textContent;
+        title.ariaLabel = this.itemData.titleWrapper.title.textContent;
 
         this.textContentUpdater();
 

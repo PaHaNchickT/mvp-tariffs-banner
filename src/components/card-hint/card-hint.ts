@@ -10,24 +10,44 @@ export default class CardHint {
 
     constructor() {
         this.hintBtn.onclick = () => {
-            if (this.hintMsg.classList.contains('hint-msg-vis')) {
+            const isMsgVis = this.hintMsg.classList.contains('hint-msg-vis');
+            this.hintMsg.ariaHidden = `${isMsgVis}`;
+            this.hintBtn.ariaPressed = `${!isMsgVis}`;
+            this.hintBtn.ariaExpanded = `${!isMsgVis}`;
+
+            if (isMsgVis) {
                 this.hintMsg.classList.remove('hint-msg-vis');
             } else {
                 this.hintMsg.classList.add('hint-msg-vis');
             }
         };
-        this.hintBtn.onblur = () => this.hintMsg.classList.remove('hint-msg-vis');
+        this.hintBtn.onblur = () => {
+            this.hintMsg.classList.remove('hint-msg-vis');
+
+            this.hintMsg.ariaHidden = 'true';
+            this.hintBtn.ariaPressed = 'false';
+            this.hintBtn.ariaExpanded = 'false';
+        };
     }
 
     renderHintMsg() {
         this.hintMsg.className = 'hint-msg';
         this.hintMsg.textContent = TEXT_CONTENT.hintMsg;
+        this.hintMsg.id = 'message';
+        this.hintMsg.role = 'hintMsg';
+        this.hintMsg.ariaHidden = 'true';
 
         return this.hintMsg;
     }
 
     renderHintBtn() {
         this.hintBtn.className = 'card_sub-banner__hint';
+        this.hintBtn.role = TEXT_CONTENT.hintBtnRole;
+        this.hintBtn.ariaLabel = TEXT_CONTENT.hintBtnLabel;
+        this.hintBtn.setAttribute('aria-controls', 'message');
+        this.hintBtn.ariaHasPopup = 'hintMsg';
+        this.hintBtn.ariaPressed = 'false';
+        this.hintBtn.ariaExpanded = 'false';
 
         const hint = new Image(0, 0);
         hint.alt = 'hint-button-image';

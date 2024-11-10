@@ -21,6 +21,7 @@ const MAIN_CONTENT: TItem[] = [
             subTitle: 'В любое время',
             subTitleAlt: 'Единоразовый платеж',
             button: 'Выбрать',
+            buttonRole: 'selectTariff',
         },
         isSubBanner: false,
         ul: [
@@ -50,6 +51,7 @@ const MAIN_CONTENT: TItem[] = [
             subTitle: 'Единоразовый платеж',
             subTitleAlt: 'Единоразовый платеж',
             button: 'Выбрать',
+            buttonRole: 'selectTariff',
         },
         isSubBanner: true,
         subBanner: {
@@ -83,6 +85,7 @@ const MAIN_CONTENT: TItem[] = [
             subTitle: 'На 24 месяца',
             subTitleAlt: 'Единоразовый платеж',
             button: 'Выбрать',
+            buttonRole: 'selectTariff',
         },
         isSubBanner: true,
         subBanner: {

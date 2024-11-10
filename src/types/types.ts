@@ -16,6 +16,7 @@ export type TItem = {
         subTitle: string;
         subTitleAlt: string;
         button: string;
+        buttonRole: string;
     };
     isSubBanner: boolean;
     subBanner?: {

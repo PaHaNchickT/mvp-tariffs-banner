@@ -1,7 +1,7 @@
 const TEXT_CONTENT = {
     hintMsg:
         'Для Вашего спокойствия мы гарантируем возврат оплаты в случае отсутствия списания долгов после процедуры.',
-    hintBtnRole: 'hintBtn',
+    hintBtnRole: 'button',
     hintBtnLabel: 'Показать подсказку',
     listItemAltText: 'Варианты рассрочки',
 };

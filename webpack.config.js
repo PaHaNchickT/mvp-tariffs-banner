@@ -3,6 +3,7 @@ const { merge } = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const EslingPlugin = require('eslint-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 const baseConfig = {
     entry: path.resolve(__dirname, './src/index'),
@@ -43,6 +44,10 @@ const baseConfig = {
         new CleanWebpackPlugin(),
         new EslingPlugin({ extensions: 'ts' }),
     ],
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()],
+    },
 };
 
 module.exports = ({ mode }) => {

@@ -2,7 +2,10 @@ import MAIN_CONTENT from '../../constants/const-main-content';
 import PageTitle from '../pageTitle/pageTitle';
 import CardItem from '../cardItem/cardItem';
 
-import './app.sass';
+import './app-general.sass';
+import './app-resp-1440.sass';
+import './app-resp-1024.sass';
+import './app-resp-744.sass';
 
 export default class App {
     start() {

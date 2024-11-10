@@ -28,7 +28,7 @@ export default class CardTitleWrapper {
         const titleWrapper = document.createElement('div');
         titleWrapper.className = `card__title-wrapper card-${this.itemData.id}__title-wrapper`;
 
-        const icon = new Image();
+        const icon = new Image(0, 0);
         icon.src = this.itemData.titleWrapper.img;
 
         const textWrapper = document.createElement('div');

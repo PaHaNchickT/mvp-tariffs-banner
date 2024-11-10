@@ -70,7 +70,11 @@
 
 /*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */
 
+/*! ../../constants/const-img-path */
+
 /*! ../../constants/const-main-content */
+
+/*! ../../constants/const-text-content */
 
 /*! ../../constants/const-timer-config */
 
@@ -182,6 +186,8 @@
 
 /*! ./components/app/app */
 
+/*! ./const-img-path */
+
 /*! ./page-title-general.sass */
 
 /*! ./page-title-resp.sass */
@@ -217,6 +223,10 @@
   \****************************************/
 
 /*!*****************************************!*\
+  !*** ./src/constants/const-img-path.ts ***!
+  \*****************************************/
+
+/*!*****************************************!*\
   !*** ./src/public/icons/timer-icon.svg ***!
   \*****************************************/
 
@@ -242,6 +252,10 @@
 
 /*!*********************************************!*\
   !*** ./src/constants/const-main-content.ts ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/constants/const-text-content.ts ***!
   \*********************************************/
 
 /*!*********************************************!*\

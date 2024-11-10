@@ -1,6 +1,7 @@
 import { TItem } from '../../types/types';
 
-import './cardList.sass';
+import './card-list-general.sass';
+import './card-list-resp.sass';
 
 export default class CardList {
     itemData: TItem;
